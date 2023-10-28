@@ -1,5 +1,6 @@
 import { LogoutButton } from "@/compoments/auth/ButtonLogout";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,8 +9,9 @@ export default function Home() {
         <div className="fixed left-0 top-0 flex w-full justify-center border-b pb-6 pt-8 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           <LogoutButton />
         </div>
-        <div>
-          <p>You're logged in</p>
+        <div className="flex flex-col text-center">
+          <p className="text-gray-500 mb-3">You're logged in</p>
+          <Link href="/dashboard/profile">Go to Profile page</Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
