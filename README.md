@@ -1,6 +1,6 @@
 I whipped up this template for the Hanko Hackathon 2023. Dive into the details and see what I crafted over at [my blog](https://johanguse.dev/blog/hanko-auth-hackathon)
 
-https://github.com/johanguse/nextjs14-hanko-auth/assets/6184866/ef3423e1-9c7d-4759-a0dc-0e5acf4960b4
+https://github.com/johanguse/nextjs14-hanko-auth/assets/6184866/b01cb6de-807f-4200-841a-971356e99047
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
