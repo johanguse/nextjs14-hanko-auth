@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Hanko } from "@teamhanko/hanko-elements";
 
 import { getHankoApiUrl } from "@/lib/utils/getHankoUrl";
-import { Button } from "@/compoments/ui/button";
+import { Button } from "@/components/ui/button";
 
 const hankoApiUrl: string = getHankoApiUrl();
 
