@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
-const HankoAuth = dynamic(() => import("@/compoments/auth/HankoAuth"), {
+const HankoAuth = dynamic(() => import("@/components/auth/HankoAuth"), {
   ssr: false,
 });
 

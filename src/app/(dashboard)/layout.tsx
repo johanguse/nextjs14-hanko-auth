@@ -1,4 +1,4 @@
-import { DashboardContent } from "@/compoments/auth/ContentDashboard";
+import { DashboardContent } from "@/components/auth/ContentDashboard";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
